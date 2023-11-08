@@ -1,0 +1,43 @@
+.durga{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    align-items:  center;
+    gap: 9rem;
+}
+.durga-img img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+.durga-text h5{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(255, 147, 6);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+.durga-text h2{
+    font-size: var(--h2-font);
+    font-weight: 3000;
+    line-height: 3.0;
+    margin-bottom: 10px;
+}
+.durga-text h2{
+    font-size:medium;
+    font-weight: 1000;
+    line-height: 30px;
+    color: #3f0eeeab;
+    margin-bottom: 35px;
+}
+.ag{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}

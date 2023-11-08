@@ -1,0 +1,43 @@
+.prak{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    align-items:  center;
+    gap: 9rem
+}
+.prak-img img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+.prak-text h5{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(255, 147, 6);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+.pak-text h2{
+    font-size: var(--h2-font);
+    font-weight: 1000;
+    line-height: 2.0;
+    margin-bottom: 10px;
+}
+.prak-text h2{
+    font-size:medium;
+    font-weight: 1000;
+    line-height: 30px;
+    color: #20ee0eab;
+    margin-bottom: 35px;
+}
+.ag{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}

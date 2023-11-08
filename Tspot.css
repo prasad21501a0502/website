@@ -1,0 +1,34 @@
+.feature-content{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    text-align: center;
+    gap: 10rem;
+    background-color: black;
+}
+.feature-content h4{
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .50s ease;
+}
+.feature-content h4{
+    color:#ffa343;
+}
+.row-img{
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin:auto;
+    margin-bottom:5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.row-img img{
+    width: 100%;
+    display: block;
+    transition: transform 0.7s;
+}
+.row-img img:hover{
+    transform: scale(2);
+}
